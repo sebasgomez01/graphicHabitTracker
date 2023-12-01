@@ -1,0 +1,71 @@
+
+#main {
+	background-color: black;
+	color: whitesmoke;
+}
+
+#head {
+	display: flex;
+	justify-content: center;
+}
+
+#addNewHabit {
+	display: flex;
+	column-gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+#habitsGrid {
+	display: flex;
+	justify-content: center;
+}
+
+#habitsList {
+	display: grid;
+	width: 100%;
+	row-gap: 0;
+}
+
+.habitRow {
+	display: grid;
+  	grid-template-columns: 15fr repeat(32, 2fr); /* La primera columna es 2 veces más grande que las otras */
+  	grid-template-rows: 15fr;
+  	align-items: center;
+  	gap: 5px;
+  	width: 96%;
+  	padding-right: 30px;
+
+}
+
+#guardarTexto {
+	background-color: black;
+	color: whitesmoke;
+	border-radius: 2px;
+	border-width: 2px;
+	border-color: whitesmoke;
+}
+
+
+
+.gridButton {
+	width: 25px;
+	height: 25px;
+	background-color: whitesmoke;
+}
+
+#contenedorCampo {
+	padding: 20px;
+}
+
+input {
+	background-color: black;
+	color: whitesmoke;
+	border-radius: 2px;
+	border-width: 2px;
+	border-color: whitesmoke;
+}
+
+label {
+	font-size: 15px;
+}

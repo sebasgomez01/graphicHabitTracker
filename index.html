@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Graphic habit tracker</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="main">
+		<div id="head">
+			<h1>GRAPHIC HABIT TRACKER</h1>
+		</div>
+		<div id="addNewHabit">
+			<h3 id="addNewHabitText">Add new habit</h3> 
+			<button id="addNewHabitButton">+</button>
+			<!-- Contenedor para el campo de entrada (inicialmente oculto) -->
+			<div id="contenedorCampo" style="display: none;">
+  				<label for="campoEntrada">Name for the habit:</label>
+  				<input type="text" id="campoEntrada">
+  				<button id="guardarTexto">Save</button>
+			</div>
+		</div>
+		<div id="habitsGrid">
+			<h2 id="emptyListMessage">Oops! Looks like you don't have any habit yet, touch + to add one.</h2>
+		</div>
+	<div>
+
+	<script src="index.js"></script>
+</body>
+</html>
